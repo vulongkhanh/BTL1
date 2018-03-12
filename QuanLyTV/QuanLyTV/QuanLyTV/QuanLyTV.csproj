@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{78D6728C-A9CB-4F48-A300-13D13918B4E7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>QuanLyTV</RootNamespace>
+    <AssemblyName>QuanLyTV</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CTPM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CTPM.Designer.cs">
+      <DependentUpon>CTPM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MuonTraSach.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MuonTraSach.Designer.cs">
+      <DependentUpon>MuonTraSach.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NgonNgu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NgonNgu.Designer.cs">
+      <DependentUpon>NgonNgu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NhanVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NhanVien.Designer.cs">
+      <DependentUpon>NhanVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NXB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NXB.Designer.cs">
+      <DependentUpon>NXB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sach.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sach.Designer.cs">
+      <DependentUpon>Sach.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TacGia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TacGia.Designer.cs">
+      <DependentUpon>TacGia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TG_TS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TG_TS.Designer.cs">
+      <DependentUpon>TG_TS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TheLoai.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TheLoai.Designer.cs">
+      <DependentUpon>TheLoai.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TheThuVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TheThuVien.Designer.cs">
+      <DependentUpon>TheThuVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ThuViendemo1DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ThuViendemo1DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ThuViendemo1DataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ThuViendemo1DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ThuViendemo1DataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ThuViendemo1DataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ThuViendemo1DataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ThuViendemo1DataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TuaSach.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TuaSach.Designer.cs">
+      <DependentUpon>TuaSach.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViTri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViTri.Designer.cs">
+      <DependentUpon>ViTri.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="CTPM.resx">
+      <DependentUpon>CTPM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MuonTraSach.resx">
+      <DependentUpon>MuonTraSach.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NgonNgu.resx">
+      <DependentUpon>NgonNgu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NhanVien.resx">
+      <DependentUpon>NhanVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NXB.resx">
+      <DependentUpon>NXB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sach.resx">
+      <DependentUpon>Sach.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TacGia.resx">
+      <DependentUpon>TacGia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TG_TS.resx">
+      <DependentUpon>TG_TS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TheLoai.resx">
+      <DependentUpon>TheLoai.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TheThuVien.resx">
+      <DependentUpon>TheThuVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="TuaSach.resx">
+      <DependentUpon>TuaSach.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViTri.resx">
+      <DependentUpon>ViTri.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="ThuViendemo1DataSet.xsc">
+      <DependentUpon>ThuViendemo1DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ThuViendemo1DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ThuViendemo1DataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ThuViendemo1DataSet.xss">
+      <DependentUpon>ThuViendemo1DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ThuViendemo1DataSet1.xsc">
+      <DependentUpon>ThuViendemo1DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="ThuViendemo1DataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ThuViendemo1DataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ThuViendemo1DataSet1.xss">
+      <DependentUpon>ThuViendemo1DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="ThuViendemo1DataSet2.xsc">
+      <DependentUpon>ThuViendemo1DataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="ThuViendemo1DataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ThuViendemo1DataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ThuViendemo1DataSet2.xss">
+      <DependentUpon>ThuViendemo1DataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="ThuViendemo1DataSet3.xsc">
+      <DependentUpon>ThuViendemo1DataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="ThuViendemo1DataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ThuViendemo1DataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ThuViendemo1DataSet3.xss">
+      <DependentUpon>ThuViendemo1DataSet3.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
