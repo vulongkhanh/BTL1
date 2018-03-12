@@ -145,6 +145,7 @@ namespace QuanLyTV
         #endregion
         private void btnThem_Click(object sender, EventArgs e)
         {
+            //-------
         Trangthai = "ADD";
             ClearTXT();
             TrangThaiTXT(true);
