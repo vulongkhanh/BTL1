@@ -11,6 +11,7 @@ using System.Windows.Forms;
 
 namespace QuanLyTV
 {
+    //muon tra sach
     public partial class MuonTraSach : Form
     {
         private string Trangthai = "LOAD";
