@@ -35,3 +35,6 @@ E:\LongKhanh\BaiTap\ThucTapCSDL\QLTV\QuanLyTV\QuanLyTV\QuanLyTV\obj\Debug\QuanLy
 C:\Users\LongKhanh PC\Documents\GitHub\BTL1\QuanLyTV\QuanLyTV\QuanLyTV\bin\Debug\QuanLyTV.exe.config
 C:\Users\LongKhanh PC\Documents\GitHub\BTL1\QuanLyTV\QuanLyTV\QuanLyTV\obj\Debug\QuanLyTV.exe
 C:\Users\LongKhanh PC\Documents\GitHub\BTL1\QuanLyTV\QuanLyTV\QuanLyTV\obj\Debug\QuanLyTV.pdb
+D:\do_an_WF\BTL1\QuanLyTV\QuanLyTV\QuanLyTV\bin\Debug\QuanLyTV.exe.config
+D:\do_an_WF\BTL1\QuanLyTV\QuanLyTV\QuanLyTV\obj\Debug\QuanLyTV.exe
+D:\do_an_WF\BTL1\QuanLyTV\QuanLyTV\QuanLyTV\obj\Debug\QuanLyTV.pdb

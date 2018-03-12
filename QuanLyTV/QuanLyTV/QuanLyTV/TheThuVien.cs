@@ -163,7 +163,7 @@ namespace QuanLyTV
             txtMa.Text = SinhMaTuDong("t");
             txtMa.Focus();
         }
-
+        //adsahdjshad
         private void btnSua_Click(object sender, EventArgs e)
         {
             Trangthai = "EDIT";
