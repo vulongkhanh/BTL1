@@ -32,7 +32,7 @@ namespace QuanLyTV
         {
 
         }
-        //Công đẹp trai làm phần này
+        
         private void Sach_Load(object sender, EventArgs e)
         {
             TrangThaiButton(true);

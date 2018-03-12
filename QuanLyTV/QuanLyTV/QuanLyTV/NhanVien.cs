@@ -26,7 +26,7 @@ namespace QuanLyTV
             dtNhanVien.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
             dtNhanVien.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
         }
-
+        //Bảng nhân viên
         private void NhanVien_Load(object sender, EventArgs e)
         {
             TrangThaiButton(true);
