@@ -14,6 +14,7 @@ namespace QuanLyTV
     public partial class CTPM : Form
     {
         // tạo kết nối với csdl
+        //-----------
         private string Trangthai = "LOAD";
         private String connecttionString = @"Data Source=DESKTOP-9N4C0JP\SQLEXPRESS;Initial Catalog=ThuViendemo2;Integrated Security=True";
         private SqlConnection conn;
