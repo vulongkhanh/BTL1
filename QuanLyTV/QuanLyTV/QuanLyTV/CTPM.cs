@@ -13,6 +13,7 @@ namespace QuanLyTV
 {
     public partial class CTPM : Form
     {
+        // tạo kết nối với csdl
         private string Trangthai = "LOAD";
         private String connecttionString = @"Data Source=DESKTOP-9N4C0JP\SQLEXPRESS;Initial Catalog=ThuViendemo2;Integrated Security=True";
         private SqlConnection conn;
@@ -29,6 +30,7 @@ namespace QuanLyTV
 
         private void btnTim_Click(object sender, EventArgs e)
         {
+            // tìm kiếm bằng thủ tục
             sql = "SELECT idCTPM, idPMT , SoCaBiet  FROM CTPMSach  WHERE idCTPM = '" + txtTim.Text.Trim() + "' ";
             cmd = new SqlCommand(sql, conn);
 
@@ -40,6 +42,7 @@ namespace QuanLyTV
 
         private void CTPM_Load(object sender, EventArgs e)
         {
+            // tạo trạng thái cho button
             TrangThaiButton(true);
             TrangThaiTXT(false);
             conn = new SqlConnection(connecttionString);
