@@ -151,7 +151,7 @@ namespace QuanLyTV
 
             return dt;
         }
-
+        //----ThemTheThuVien
         private void btnThem_Click(object sender, EventArgs e)
         {
             Trangthai = "ADD";
